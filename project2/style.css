@@ -1,0 +1,1161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    height: auto;
+}
+    body::selection{
+      color: black;
+
+    background-color:yellow;
+}
+/*main-part*/
+
+.main-part{
+    width: 100%;
+    height: 680px;
+    background-image:url(image/Zain-Experts.webp);
+    background-size: cover;
+    padding-top: 12px;
+    position: relative;
+    z-index: 1;
+    
+}
+.main-part::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+/*navbar*/
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 14px;
+    
+    position: fixed;
+    
+    
+}
+
+
+/*logo*/
+
+
+.logo{
+    background-image: url(image/logo.png);
+    background-size: cover;
+    width: 165px;
+    height: 35px;
+}
+
+/*lils start*/
+
+   /*a tag*/
+   a{
+    text-decoration: none;
+    color: white ;
+    font-size: 17px;
+   }
+    a:hover{
+        color: yellow;
+        text-decoration: none;
+    }
+    /*a end*/
+/*home-linl  start*/
+.home-link{
+    font-size: 20px;
+}
+
+.home-a{
+    color: yellow;
+}
+/*home-link end*/
+/*service-link start*/
+.link-select{
+    background-color:transparent;
+    border: none;
+    color:white;
+    width: 20px;
+    padding-left: 4px;
+}
+.link-select:hover{
+    color: yellow;
+}
+/*service link end*/
+/*btn1 start*/
+.btn1{
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background-color:yellow ;
+}
+
+/*nav-h1 start*/
+.nav-h1{
+    
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 90px;
+    margin-top: 80px;
+}
+
+.nav-h1:hover{
+    color: yellow;
+}
+.nav-h1::selection{
+      color: black;
+
+    background-color:yellow;
+
+}
+/*nav-h1 end*/
+
+/*nav-h2 start*/
+.nav-h2{
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 19px;
+    font-weight: 800;
+}
+.nav-h2:hover{
+   color: yellow;
+}
+.nav-h2::selection{
+    color: black;
+
+    background-color:yellow;
+}
+
+/*btn2 starty*/
+.btn2{
+    width: 140px;
+    height: 40px;
+    margin: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+.btn2:hover{
+    background-color:#ffffff3b;
+    border: 2px solid white;
+}
+/*manin-part end*/
+
+/*main-hero-section start*/
+.main-hero-section{
+    width: 100%;
+    height: 780px;
+    background-color: #000000;
+}
+
+/*hero top heading*/
+
+
+/*fist  box1*/
+.hero-main{
+    display: block;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+.hero-1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+
+/*hero-box (main)*/
+.hero-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+/*hero image box*/
+.image-hero{
+    width: 560px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.image-hero{
+    background-image: url(image/hero-img.webp);
+    background-size: cover;
+}
+
+ /*content hero box*/
+.content-hero{
+       width: 550px;
+    height: 500px;
+    background-color:black;
+    margin-right: 5px;
+}
+
+/* fist div in content hero box*/
+.top1{
+    font-size: 45px;
+    color: white;
+    font-family: sans-serif;
+    padding-left: 4px;
+     margin-bottom: 15px;
+}
+/* 2nd  div in content hero box*/
+.top-2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 35px;
+     margin-bottom: 15px;
+
+}
+/* 3rd div in content hero box*/
+.top-3{
+     color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+
+}
+
+/*hero content btn*/
+.btn3{
+    width: auto;
+    height: 40px;
+    margin-top: 33px;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.btn3:hover{
+    background-color: yellow;
+}
+
+
+/*hero foot  heading*/
+
+
+/*fist  box1*/
+.hero-main-2{
+    display: block;
+    justify-content: center;
+    padding-top: 12px;
+    margin-top: 35px;
+}
+
+.hero-2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+/* hero section 1 done */
+
+/*panel-1 start*/
+
+.panel-1{
+    width: 100%;
+    height: 470px;
+    background-image:url(image/Zain-Experts.webp);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.panel-1::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/*panel-1 box1*/
+.panel-box1{
+    width: 250px;
+    height: 350px;
+    background-color: transparent;
+    border: 2px solid white;
+     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 22px;
+     margin-right: 12PX;
+}
+.main-heading-box1{
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+    margin-left: 12px;
+}
+.center-box1{
+    color: white;
+    font-size: 15px;
+    padding-top: 30px;
+    line-height: 20px;
+    padding-left: 20px;
+}
+.btn-box1{
+    width: 120px;
+    background-color: white;
+    height: 35px;
+    margin-top: 20px;
+}
+.btn-box1:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px dotted white;
+}
+/*panel-box1 end*/
+/*panel-1 box2 start*/
+.panel-box2{
+    width: 250px;
+    height: 350px;
+    background-color: transparent;
+    border: 2px solid white;
+     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 22px;
+     margin-right: 12PX;
+}
+.main-heading-box2{
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.center-box2{
+    color: white;
+    font-size: 15px;
+    padding-top: 30px;
+    line-height: 20px;
+}
+.btn-box2{
+    width: 120px;
+    background-color: white;
+    height: 35px;
+    margin-top: 20px;
+}
+.btn-box2:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px dotted white;
+}
+/*panel-box2 end*/ 
+/*panel-1 box3 start*/
+.panel-box3{
+    width: 250px;
+    height: 350px;
+    background-color: transparent;
+    border: 2px solid white;
+     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 22px;
+     margin-right: 12PX;
+}
+.main-heading-box3{
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.center-box3{
+    color: white;
+    font-size: 15px;
+    padding-top: 30px;
+    line-height: 20px;
+}
+.btn-box3{
+    width: 120px;
+    background-color: white;
+    height: 35px;
+    margin-top: 20px;
+}
+.btn-box3:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px dotted white;
+}
+/*panel 1 -box3 end*/
+/*panel-1 box4 start*/
+.panel-box4{
+    width: 250px;
+    height: 350px;
+    background-color: transparent;
+    border: 2px solid white;
+     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 22px;
+     margin-right: 20PX;
+}
+.main-heading-box4{
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+    margin-left: 12px;
+}
+.center-box4{
+    color: white;
+    font-size: 15px;
+    padding-top: 30px;
+    line-height: 20px;
+}
+.btn-box4{
+    width: 120px;
+    background-color: white;
+    height: 35px;
+    margin-top: 20px;
+}
+.btn-box4:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px dotted white;
+}
+/*pamnel-1 end*/
+/*panel-2 start*/
+.panel-2{
+    width: 100%;
+    height: 700px;
+    background-color: #000000;
+    align-self: center;
+}
+/*main-heading-panel-2 start*/
+.main-head-panel-2{
+    display: flex;
+    width: 100%;
+    height: 80px;
+   justify-content: center;
+   /*background-color: red;*/
+}
+.main-heading-panel-2{
+    font-size: 50px;
+    color: white;
+    margin-top: 10px;
+}
+/*main-heading panel-2 end*/
+/*panel-2 boxs start*/
+.panel-2-box-1st{
+    width: 100%;
+    height: 350px;
+    /*background-color: blue;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*panel-2-box1*/
+.panel-2-box1{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    margin: 12px;
+    padding: 12px;
+     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+.panel-2-main-heading-box1{
+    color: white;
+    font-size: 25px;
+    padding-top: 12px;
+}
+.panel-2-center-box1{
+    padding-top: 12px;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 4px;
+    color: white;
+}
+/*panel-2-box1 end*/
+/*panel-2-box2*/
+.panel-2-box2{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    margin: 12px;
+    padding: 12px;
+     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+.panel-2-main-heading-box2{
+    color: white;
+    font-size: 25px;
+    padding-top: 12px;
+}
+.panel-2-center-box2{
+    padding-top: 12px;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 4px;
+    color: white;
+}
+/*panel-2-box2 end*l
+
+/*panel-2-box3 start*/
+.panel-2-box3{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    margin: 12px;
+    padding: 12px;
+     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+.panel-2-main-heading-box3{
+    color: white;
+    font-size: 25px;
+    padding-top: 12px;
+}
+.panel-2-center-box3{
+    padding-top: 12px;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 4px;
+    color: white;
+}
+/*panel-2-box3 end*l
+
+/*panel-2-box4 start*/
+.panel-2-box4{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    margin: 12px;
+    padding: 12px;
+     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+.panel-2-main-heading-box4{
+    color: white;
+    font-size: 25px;
+    padding-top: 12px;
+}
+.panel-2-center-box4{
+    padding-top: 12px;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 4px;
+    color: white;
+}
+/*panel-2-box4 end*/
+/*mid-panel-2 start*/
+.mid-panel-2{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: green;*/
+}
+/*mid-panel-2 end*/
+/*panel-2-box-2nd*/
+.panel-1-box-2nd{
+    width: 100;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-colur:red;*/
+}
+/*panel-1-box-2nd-box1 start */
+.panpanel-1-box-2nd-box1{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius:8px;
+     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+     border: 2px solid white;
+     margin-right: 15px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+/*panel-1-box-2nd-box2 start */
+.panel-1-box-2nd-box2{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius:8px;
+     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+     border: 2px solid white;
+     margin-right: 15px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+/*panel-1-box-2nd-box3 start */
+.panel-1-box-2nd-box3{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius:8px;
+     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+     border: 2px solid white;
+     margin-right: 15px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+/*panel-1-box-2nd-box4 start */
+.panel-1-box-2nd-box4{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius:8px;
+     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+     border: 2px solid white;
+     margin-right: 15px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+p{
+    color: white;
+}
+
+/*panel-1 end*/
+/*panel-3 start*/
+.panel-3{
+    width: 100%;
+    height: 600px;
+    background-image: url(image/Zain-Experts.webp);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.panel-3::after{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+/*spaceing part*/
+.spaceing-part{
+    width: 100%;
+    height: 150px;
+    /*background-color: red;*/
+}
+/*panel-3 main-heading*/
+.panel-3-main-heading{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+
+}
+/*panel-3-boxs start*/
+.panel-3-boxs{
+    width: 100%;
+    height: 400px;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*panel-3-box1*/
+.panel-3-box1{
+  width:250px;
+  height: 300px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid white;
+   box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+   border-radius: 5px;
+   margin-right: 16px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+
+}
+.panel-3-box1-heading{
+    font-size: 22px;
+    color: white;
+    padding: 20px;
+}
+.panel-3-box1-heading-foot{
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+}
+/*panel-3-box1*/
+.panel-3-box2{
+  width:250px;
+  height: 300px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid white;
+   box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+   border-radius: 5px;
+   margin-right: 16px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.panel-3-box2-heading{
+    font-size: 22px;
+    color: white;
+    padding: 20px;
+}
+.panel-3-box2-heading-foot{
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 12px;
+}
+/*panel-3-box3*/
+.panel-3-box3{
+  width:250px;
+  height: 300px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid white;
+   box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+   border-radius: 5px;
+   margin-right: 16px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.panel-3-box3-heading{
+    font-size: 22px;
+    color: white;
+    padding: 20px;
+}
+.panel-3-box3-heading-foot{
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 12px;
+}
+/*panel-3-box4*/
+.panel-3-box4{
+  width:250px;
+  height:300px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid white;
+   box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+   border-radius: 5px;
+   margin-right: 16px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.panel-3-box4-heading{
+    font-size: 22px;
+    color: white;
+    padding: 20px;
+}
+.panel-3-box4-heading-foot{
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+}
+/*panel-3 end*/
+/*panel-4 satrt*/
+
+.panel-4{
+ width: 100%;
+ height: 700px;
+ background-color: black;
+ border-bottom: 4px double white;
+
+}
+/*panel-4-main-heading */
+.panel-4-main-heading{
+    width: 100%;
+    height: 200px;
+    /*background-color: blue;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/*panel-4-question*/
+.panel-4-question{
+    width: 100%;
+    height: 500px;
+    /*background-color: darkgoldenrod;*/
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-bottom: 4px solid white;
+    
+    
+}
+/*Questions-1*/
+.Questions-1{
+    width: 65%;
+    height: 60px;
+    background-color: #000000;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+/*Questions-2*/
+.Questions-2{
+    width: 65%;
+    height: 60px;
+    background-color: #000000;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+/*Questions-2*/
+.Questions-3{
+    width: 65%;
+    height: 60px;
+    background-color: #000000;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+
+}
+/*Questions-4*/
+.Questions-4{
+    width: 65%;
+    height: 60px;
+    background-color: #000000;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+/*Questions-5*/
+.Questions-5{
+    width: 65%;
+    height: 60px;
+    background-color: #000000;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+/*Questions-6*/
+.Questions-6{
+    width: 65%;
+    height: 60px;
+    background-color: #000000;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+/*Questions-7*/
+.Questions-7{
+    width: 65%;
+    height: 60px;
+    background-color: #000000;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+/*Questions-7*/
+.Questions-8{
+    width: 65%;
+    height: 60px;
+    background-color: #000000;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+/*panel-4 end*/
+/*footer start*/
+/*footer-main-part*/
+.footer-main-part{
+    width: 100%;
+    height: 550px;
+    background-image: url(image/Zain-Experts.webp);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.footer-main-part::before{
+    content: "";
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+
+}
+/*footer-main-part-heading-1*/
+.footer-main-part-heading-1{
+    width: 100%;
+    height: 500px;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*footer-main-part-box1*/
+.footer-main-part-box1{
+     width: 300px;
+     height: 60%;
+
+}
+.footer-main-part-box1-center-heading{
+    color: white;
+    margin-top: 30px;
+    
+}
+.footer-main-part-box1-foot-logo{
+    display: flex;
+   justify-content: center;
+   margin-top: 35px;
+}
+.footer-image1{
+    margin-right: 20px;
+}
+.footer-image2{
+    margin-right: 20px;
+}
+.footer-image3{
+    margin-right: 20px;
+}
+.footer-image4{
+    margin-right: 20px;
+}
+/*footer-main-part-box2*/
+.footer-main-part-box2{
+     width: 300px;
+     height: 90%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 60px;
+}
+.footer-main-part-box2-h1{
+    font-size: 23px;
+    color: white;
+}
+.footer-main-part-box2-link-1{
+    font-size: 18px;
+    padding-top: 15px;
+}
+.footer-main-part-box2-link-2{
+    font-size: 18px;
+    padding-top: 15px;
+}
+.footer-main-part-box2-link-3{
+    font-size: 18px;
+    padding-top: 15px;
+}
+.footer-main-part-box2-link-4{
+    font-size: 18px;
+    padding-top: 15px;
+}
+.line{
+    width: 70%;
+    height: 1px;
+    background-color: white;
+    margin-top: 16px;
+}
+.footer-main-part-box2-h2{
+    font-size: 23px;
+    color: white;
+    padding-top: 20px;
+}
+.footer-phone{
+padding-top: 30px;
+font-size: 17px;
+color: white;
+}
+.footer-gamil{
+padding-top: 3px;
+font-size: 17px;
+color: white;
+}
+/*footer-main-part-box3*/
+.footer-main-part-box3{
+     width: 400px;
+     height: 90%;
+     background-color: transparent;
+     margin-top: 60px;
+}
+.footer-main-part-box3-main-heading{
+    font-size: 35px;
+    color: white;
+    font-family: serif;
+    
+}
+.footer-main-part-box3-main-heading-form{
+    margin-top: 12px;
+    padding-left: 6px;
+
+}
+.form-first-heading{
+    color: grey;
+    padding-bottom: 4px;
+}
+.input-1-footer{
+    width: 290px;
+    height: 40px;
+    border-radius: 7px;
+    padding: 12px;
+    background-color: transparent;
+    border: 2px solid white;
+    
+}
+.form-2-heading{
+     color: grey;
+     padding-top: 4px;
+}
+.input-2-footer{
+    width: 290px;
+    height: 40px;
+    border-radius: 7px;
+    padding: 12px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.form-3-heading{
+     color: grey;
+     padding-top: 7px;
+     margin-top: 2px;
+}
+.input-3-footer{
+    width: 290px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 2px solid white;
+    
+}
+.btn-footer{
+    display: block;
+    margin-top: 29px;
+    width: 200px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 7px;
+    border: 2px solid white;
+}
+/*footer-main-part end*/
+/*footer-main-part-2 start*/
+.footer-main-part-2{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly
+}
+.copy-right-msg{
+    width: 200px;
+    height: 20px;
+    background-color: aqua;
+}
+.end-navbar{
+     width: 120px;
+    height: 20px;
+    background-color: aqua;
+}
+
+
+
+

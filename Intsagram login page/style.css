@@ -1,0 +1,134 @@
+
+  *{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+.instagram{
+    border: 3px solid rgb(253, 253, 253);
+    width: 500px;
+    height: 600px;
+    margin-left: 430px;
+    margin-top: 50px;
+    border-radius: 13px;
+    margin-bottom: 12px;
+    background-color: rgba(228, 216, 216, 0.837);
+    background-image: url(image/pngtree-colorful-gradient-instagram-background-picture-image_1911628.jpg);
+    background-size: cover;
+}
+
+.insta1{
+    border: 2px solid rgb(224, 224, 224);
+    width: 300px;
+    height: 500px;
+    margin-left: 95px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-image: url(image/pngtree-colorful-gradient-instagram-background-picture-image_1911628.jpg);
+    background-size: cover;
+}
+
+.insta-h1{
+    text-align: center;
+    
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-family: Roboto;
+    color: white;
+}
+
+.insta-input{
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.insta-input2{
+         margin-left: 20px;
+    margin-top: 12px;
+    height: 25px;
+}
+input{
+    width: 235px;
+    padding-left: 18px;
+    border-radius: 4px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 700px;
+}
+
+.icon{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: -25px;
+    font-size: 15px;
+}
+.link-password{
+    text-align: right;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-right: 25px;
+    color: white;
+}
+.button{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 25px;
+}
+button{
+    width: 97%;
+    height: 35px;
+    background-color: rgba(9, 106, 252, 0.901);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: white;
+}
+.main-paart{
+    margin-top: 25px;
+    display: flex;
+    margin-left: -4px;
+
+}
+.hz1{
+        width: 115px;
+    height: 3px;
+    background-color: #d6d6d6;
+    margin-top: 8px;
+}
+span{
+    margin-left: 12px;
+    margin-right: 12px;
+    color: white;
+}
+
+.hz2{
+        width: 115px;
+    height: 3px;
+    background-color: #d6d6d6;
+    margin-top: 8px;
+}
+
+.Facebook-logo{
+    text-align: center;
+    margin-top: 20px;
+    height: 80px;
+    font-size: 12px;
+    margin-right: 12px;
+    color: white;
+}
+
+.hz3{
+     width: 253px;
+    height: 1px;
+    padding-left: 12px;
+    background-color: #d6d6d6;
+}
+
+
+.end{
+    text-align: center;
+    margin-top: 17px;
+    font-size: 10px;
+    color: white;
+}

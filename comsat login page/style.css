@@ -1,0 +1,196 @@
+
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid;
+    width: 422px;
+        margin-left: 512px;
+    margin-top: 70px;
+    height: 854px;
+        border-radius: 20px;
+    border-color: #8080803d;
+    background-color: whitesmoke;
+
+}
+#personaldetail h1{
+    color: blue;
+        font-family: cursive;
+}
+
+.input1{
+margin-left: 32px;
+width: 269px;
+height: 22px;
+}
+.label1{
+    display: inline-block;
+    margin-top: 20px;
+    word-spacing: 4px;
+}
+.fname{
+    margin-top: 24px;
+}
+.input2{
+    margin-left: 26px;
+    width: 268px;
+    height: 22px;
+}
+.mname{
+    margin-top: 24px;
+}
+.input3{
+    margin-left: 36px;
+    width: 270px;
+    height: 19px;
+}
+.datebrith{
+    margin-top: 24px;
+}
+.input4{
+    margin-left: 49px;
+    width: 270px;
+ 
+    height: 19px;
+}
+.gender{
+    margin-top: 24px
+}
+.gender2{
+        width: 117px;
+    padding-left: 21px;
+    margin-left: 37px;
+    height: 22px;
+    border-radius: 6px;
+}
+.nation{
+    margin-top: 24px
+}
+.nation2{
+    width: 120px;
+    padding-left: 27px;
+    margin-left: 10px;
+    height: 22px;
+    border-radius: 6px;
+}
+.domicle{
+    margin-top: 24px
+}
+.domicle2{
+        width: 161px;
+    padding-left: 12px;
+    margin-left: 26px;
+    height: 23px;
+    border-radius: 4px;
+
+}
+.cnic{
+    margin-top: 24px;
+}
+.span{
+    margin-left: 40px;
+}
+.CNIC1{
+        width: 61px;
+    padding-left: 12px;
+    height: 18px;
+    padding-top: 2px;
+    border-radius: 4px;
+
+}
+.CNIC2{
+        width: 107px;
+    height: 18px;
+    border-radius: 4px;
+}
+.CNIC3{
+        width: 35px;
+    height: 18px;
+    border-radius: 4px;
+}
+.fcnic{
+    margin-top: 24px;
+}
+.span2{
+    margin-left: 32px;
+}
+.CNIC4{
+        width: 61px;
+    padding-left: 12px;
+    height: 18px;
+    padding-top: 2px;
+    border-radius: 4px;
+
+}
+.CNIC5{
+        width: 107px;
+    height: 18px;
+    border-radius: 4px;
+}
+.CNIC6{
+        width: 35px;
+    height: 18px;
+    border-radius: 4px;
+}
+.pnumber{
+    margin-top: 24px;
+}
+.span3{
+        margin-left: 28px
+}
+.ph1{
+        width: 43px;
+    height: 17px;
+    border-radius: 4px;
+    padding-left: 24px;
+}
+.ph2{
+        border-radius: 4px;
+    height: 17px;
+    width: 167px;
+}
+.Iban{
+    margin-top: 24px;
+}
+.input5{
+        margin-left: 17px;
+    width: 236px;
+    height: 17px;
+    padding-left: 18px;
+    border-radius: 4px;
+}
+.account{
+    margin-top: 24px;
+}
+.title{
+    margin-left: 28px;
+    padding-left: 27px;
+    width: 232px;
+    border-radius: 4px;
+}
+.bname{
+    margin-top: 24px;
+}
+.input6{
+        margin-left: 38px;
+    padding-left: 12px;
+    width: 249px;
+    border-radius: 4px;
+}
+.input7{
+    margin-left: 182px;
+    margin-top: 11px;
+    width: 179px;
+    height: 33px;
+    border-radius: 15px;
+    background-color: #2fd3d3;
+    text-decoration-line: none;
+}
+label{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.page{
+    
+}
