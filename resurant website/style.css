@@ -1,0 +1,417 @@
+/* /* @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+    /* ==========for all page========= */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    color: #fff;
+    transition: all  0.5s linear;
+}
+  /* ==================for body==================== */
+
+body{
+     background-color: #1A1110; 
+     font-family: cursive;
+}
+
+/* =============header section main setting================ */
+
+header{
+    position: relative;
+    padding: 2em 0;
+    background:linear-gradient(rgba(0 ,0 ,0 ,0.6) , rgba(0, 0, 0, 0.3)),url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/* ==============logo div style================== */
+.logo{
+    font-size: 2em;
+    font-weight: 600;
+    flex: 1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+/* ===============logo style of navbaar================ */
+.logo img{
+        width: 70px;
+        margin-right: 1%;
+}
+
+
+/* =====================navbar links and btn style==================== */
+.navbar{
+    width: 100%;
+    padding: 2rem 3rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    top: 0;
+    position: fixed;
+}
+.scrolled{
+    background-color: #1A1110;
+    box-shadow: rgba(0 ,0 ,0 ,0.35) 0 5 15px;
+}
+
+/* ====================nabvar link mean ul style===================== */
+.nav-items{
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: space-between;
+}
+
+
+/* ======================navbar ul tags style=============== */
+.item{
+    display: flex;
+    justify-content: center;
+}
+
+.item li{
+    list-style: none;
+    padding: 1em;
+}
+
+.item li a {
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    font-weight: 600px;
+}
+
+.item li::before{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: orangered;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.item li:hover::before{
+  width:   100%;
+}
+
+/* ==============navbar btn style================================= */
+.btn{
+    font-size: 18px;
+    padding: 9px 15px;
+    cursor: pointer;
+    background-color: orangered;
+    border: 2px solid orangered;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+
+/* ==========================navbar stram bar remove style+===================== */
+.nav-menu{
+    display: none;
+}
+
+/* =================main secttion main style====================== */
+.main{
+    width: 80%;
+    left: 50%;
+    top: 55% ;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    color: #fff
+}
+
+
+/* ==========h2 style that exsit in main section ==================== */
+
+.heading_h1{
+    font-size: 2.3rem;
+    margin-bottom: 22px;
+}
+
+/* ==========h1 style that exsit in main section ==================== */
+.heading_h2{
+    font-size: 50px;
+    padding: 2.5% 0;
+     font-family: "Playwrite CU", cursive;
+      margin-bottom: 22px;
+}
+
+
+/* ==========main section btn style============================= */
+
+.main_btn{
+    display: flex;
+    margin-top:20px;
+}
+
+.btn1:hover{
+    background-color: transparent;
+}
+
+.btn2{
+    background-color: transparent;
+    margin-left: 1%;
+    align-items: center;
+    display: flex;
+
+}
+
+.btn2 i{
+    color: orangered;
+    font-size: 2em;
+    margin-right: 6px;
+}
+.btn2:hover{
+    background-color: orangered;
+    color: #fff;
+}
+.btn2:hover i{
+    color: white;
+}
+
+
+
+/* =================main section style end====================== */
+
+/* =======================services section style start=================== */
+.services {
+    margin-bottom: 70px !important;
+}
+.se{
+    padding: 8% 0 3% 0;
+    width: 85%;
+    margin: auto;
+}
+
+/* =============top heading style start================== */
+  .head{
+    text-align: center;
+  }
+
+  .heading_2 span{
+      color: orangered;
+  }
+  .head .heading_2{
+    font-family: 'lato' ,sans-serif;
+  }
+  .heading_h1{
+    font-family: "Playwrite CU" , cursive;
+    font-size: 40px !important;
+    color: aliceblue;
+    font-size: 32px;
+}
+/* =============top heading style end================== */
+
+/* ======boxes style start =========== */
+.boxes{
+    margin-top: 4rem;
+    display: grid;
+    grid: 2rem;
+    grid-template-columns: repeat(3,1fr);
+}
+.box{
+    text-align: center;
+    padding: 5% 0;
+    box-shadow: rgba(0 ,0 ,0 ,1.35) 0 5px 15px ;
+    border: 2px solid transparent;
+}
+.box img{
+    width: 150px;
+}
+.box p{
+    color: #888;
+    text-align: center;
+    line-height: 1.6rem;
+    margin-inline: auto;
+    max-width: 275px;
+}
+.box h1{
+    font-size: 1.7rem;
+    margin: 1rem;
+    font-weight: 700;
+}
+.box:hover{
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* ======boxes style end =========== */
+
+/* =======================services section style end=================== */
+
+
+
+/* =====================about section style start =============== */
+
+.about_heading{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0  6em;
+    align-items: center;
+}
+.heading_h1,
+.heading_2{
+    grid-column: 1;
+}
+ .para{
+    grid-column: 2;
+    color: #777;
+}
+
+
+
+/* ================about boxes style start=================== */
+.about_box{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 2rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+.para1{
+    color: #888;
+    padding-bottom:5% ;
+}
+.box1{
+    background-color: white;
+    border: 2px solid chocolate;
+    box-shadow: rgba(0 ,0 ,0 ,2.23) 0 3px 8px;
+}
+.box1 img{
+    width: 100%;
+}
+
+.box1_text{
+    padding: 4%;
+}
+
+.box1_text button:hover{
+    color: #1A1110;
+}
+/* ================about boxes style end=================== */
+
+/* =====================about section style end =============== */
+
+
+/* =====================contact section style start=========== */
+.contact{
+    margin-top: 6%;
+    width: 100%;
+    background-color: #312c2a;
+}
+.contact_box{
+    display: grid;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+.right_box img{
+    width: 100%;
+}
+
+.text{
+    font-size: 40px;
+    line-height: 60px;
+}
+.left-btn{
+    margin-block: 20px;
+}
+/* =====================contact section style end=========== */
+
+
+
+/* ==================footer style start ================== */
+.footer_container{
+    display: grid;
+    margin-top: 50px;
+    gap: 4rem 2 rem;
+    grid-template-columns: repeat(4 ,1fr);
+   
+}
+.footer_spec{
+    margin-top: 23px;
+    margin-left: 15px;
+    margin-right: 10px;
+     margin-bottom: 12px;
+}
+.footer_col{
+     margin-bottom: 12px;
+}
+.footer_logo img{
+    max-width: 40px;
+}
+.footer_logo span{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.footer_col .footer_text{
+    max-width: 350px;
+    color: #999;
+    margin: 2rem 0;
+}
+
+.footer-socials{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+}
+.footer-socials i{
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 3%;
+}
+.footer-socials  i:hover{
+    background-color: orangered;
+}
+.footer_col h4{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.footer_links{
+    display: grid;
+    gap: 1rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-family: sans-serif !important;
+}
+.footer_links ul{
+    margin-top: 12px;
+}
+.footer_links li{
+    list-style: none;
+}
+
+.footer_links a{
+    text-decoration: none;
+    color: #999;
+}
+.footer_links a:hover{
+    color: orangered;
+}
+.footer_bar{
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* ==================footer style end ================== */
+
+  
