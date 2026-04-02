@@ -1,0 +1,147 @@
+ /* Global Styles */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #fafafa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Main Container - Ab ye responsive hai */
+        .instagram {
+            border: 3px solid rgb(253, 253, 253);
+            width: 100%;
+            max-width: 500px; /* Desktop par 500px rahega */
+            min-height: 600px;
+            border-radius: 13px;
+            background-color: rgba(228, 216, 216, 0.837);
+            background-image: url('image/pngtree-colorful-gradient-instagram-background-picture-image_1911628.jpg');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Inner Card */
+        .insta1 {
+            border: 2px solid rgb(224, 224, 224);
+            width: 100%;
+            max-width: 300px; /* Aapka original size */
+            height: 520px;
+            border-radius: 10px;
+            background-image: url('image/pngtree-colorful-gradient-instagram-background-picture-image_1911628.jpg');
+            background-size: cover;
+            padding: 15px;
+        }
+
+        .insta-h1 {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 25px;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+        }
+
+        .insta-input, .insta-input2 {
+            margin-bottom: 12px;
+            width: 100%;
+        }
+
+        input {
+            width: 100%; /* Full width inside container */
+            padding-left: 15px;
+            border-radius: 4px;
+            height: 35px;
+            background-color: rgb(255, 255, 255);
+            font-size: 13px;
+            font-weight: 700;
+            border: 1px solid #dbdbdb;
+        }
+
+        .icon {
+            text-align: right;
+            margin-top: -38px;
+            margin-right: 10px;
+            font-size: 15px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .link-password {
+            text-align: right;
+            font-size: 12px;
+            margin-top: 35px;
+            color: white;
+        }
+
+        .button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            width: 100%;
+            height: 35px;
+            background-color: rgba(9, 106, 252, 0.901);
+            font-family: 'Gill Sans', sans-serif;
+            font-size: 17px;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .main-paart {
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hz1, .hz2 {
+            flex: 1;
+            height: 2px;
+            background-color: #d6d6d6;
+        }
+
+        span {
+            margin: 0 10px;
+            color: white;
+            font-size: 14px;
+        }
+
+        .Facebook-logo {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .hz3 {
+            width: 100%;
+            height: 1px;
+            background-color: #d6d6d6;
+            margin-top: 40px;
+        }
+
+        .end {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 12px;
+            color: white;
+        }
+
+        .end a {
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            margin-left: 5px;
+        }
