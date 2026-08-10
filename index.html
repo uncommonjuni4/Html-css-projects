@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+   <button  id="btn1">Button 1</button>
+   <button  id="btn2">Button 2</button>
+
+
+   <div>
+          <p>
+            background Ground :
+          </p>
+   </div>
+
+    <script >
+    let btn1 = document.getElementById("btn1");
+
+
+    console.log(btn1);
+ 
+
+    
+    const handlebtn1 = ()=>{
+        
+             let hexvalue = "0123456789abcdef";
+            let hexvaue = "#";
+   
+          let value ;
+
+          for(let i =0 ; i<6; i++){
+              let ram =Math.floor(Math.random() *16);
+  
+     
+          hexvaue =  hexvaue + (hexvalue[ram]);
+
+          
+        }
+        document.body.style.backgroundColor = hexvaue;
+        console.log(hexvaue)
+
+     }
+    btn1.addEventListener("click" ,handlebtn1);
+    </script>
+</body>
+</html>
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Hex Color Generator</title>
+</head>
+<body>
+    
+   <button id="btn1">Button 1</button>
+   <button id="btn2">Button 2</button>
+
+   <div>
+       <p id="color-text">
+           Background Color: #ffffff
+       </p>
+   </div>
+
+    <script>
+    // 1. Get the DOM elements
+    let btn1 = document.getElementById("btn1");
+    let btn2 = document.getElementById("btn2");
+    let colorText = document.getElementById("color-text"); // Added an ID to the <p> tag to target it
+
+    // 2. Define the click handler
+    const handlebtn1 = () => {
+        let hexCharacters = "0123456789abcdef";
+        let hexColor = "#"; // Start with the hash symbol
+        
+        // Loop 6 times to grab 6 random characters
+        for(let i = 0; i < 6; i++) {
+            // Generate a new random index INSIDE the loop
+            let randomIndex = Math.floor(Math.random() * 16); 
+            
+            // Append the random character to our hexColor string
+            hexColor = hexColor + hexCharacters[randomIndex]; 
+        }
+        
+        console.log("Generated Color:", hexColor);
+
+        // 3. Apply the color to the background and update the text
+        document.body.style.backgroundColor = hexColor;
+        colorText.innerText = `Background Color: ${hexColor}`;
+    }
+
+    // 4. Attach the event listener
+    btn1.addEventListener("click", handlebtn1);
+    </script>
+</body>
+</html> --> -->
